@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte - Device Info Pro</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.4em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .faq-item {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+        
+        .faq-question {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .faq-answer {
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        .contact-info {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 30px;
+        }
+        
+        .contact-info h3 {
+            margin-top: 0;
+        }
+        
+        .contact-info p {
+            margin: 10px 0;
+        }
+        
+        .contact-info a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: transform 0.2s;
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+        }
+        
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📱 Device Info Pro</h1>
+            <p>Central de Suporte</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>Bem-vindo ao Suporte</h2>
+                <p>Estamos aqui para ajudar você a aproveitar ao máximo o Device Info Pro. Encontre respostas para as perguntas mais comuns ou entre em contato conosco.</p>
+            </div>
+            
+            <div class="section">
+                <h2>Perguntas Frequentes (FAQ)</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">O que é o Device Info Pro?</div>
+                    <div class="faq-answer">
+                        O Device Info Pro é um aplicativo completo para verificar informações detalhadas do seu dispositivo iOS/iPadOS, incluindo detecção de LIDAR, monitoramento de sensores em tempo real e testes de performance.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Meu dispositivo tem LIDAR?</div>
+                    <div class="faq-answer">
+                        O app detecta automaticamente se seu dispositivo possui sensor LIDAR. Dispositivos compatíveis incluem: iPad Pro 11" (2ª geração ou superior), iPad Pro 12.9" (4ª geração ou superior), iPad Pro 13" (M4), iPhone 12 Pro, iPhone 13 Pro, iPhone 14 Pro, iPhone 15 Pro e iPhone 16 Pro.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Como usar os sensores em tempo real?</div>
+                    <div class="faq-answer">
+                        Na aba "Sensores", toque em "Iniciar Monitoramento" para começar a receber dados em tempo real dos sensores do seu dispositivo. Você verá informações do acelerômetro, giroscópio, magnetômetro e atitude do dispositivo.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">O que é o benchmark de performance?</div>
+                    <div class="faq-answer">
+                        O benchmark testa a performance do seu dispositivo em diferentes aspectos: processamento de CPU, alocação de memória e velocidade de escrita em disco. Execute o teste para obter uma pontuação geral de performance.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">O app coleta meus dados pessoais?</div>
+                    <div class="faq-answer">
+                        Não. O Device Info Pro funciona completamente offline e não coleta, armazena ou transmite nenhum dado pessoal. Todas as informações são processadas localmente no seu dispositivo.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">O app requer conexão com a internet?</div>
+                    <div class="faq-answer">
+                        Não. O Device Info Pro funciona completamente offline. Todas as funcionalidades estão disponíveis sem necessidade de conexão com a internet.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Como reportar um problema ou bug?</div>
+                    <div class="faq-answer">
+                        Entre em contato conosco através do email de suporte abaixo. Por favor, inclua detalhes sobre o problema, modelo do dispositivo e versão do iOS/iPadOS.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Recursos do App</h2>
+                <h3>📱 Informações do Dispositivo</h3>
+                <ul>
+                    <li>Modelo completo e ano de lançamento</li>
+                    <li>Especificações de hardware (CPU, RAM, armazenamento)</li>
+                    <li>Detalhes do display (tamanho, resolução, tipo)</li>
+                    <li>Lista completa de sensores disponíveis</li>
+                    <li>Capacidades do ARKit</li>
+                </ul>
+                
+                <h3>📡 Monitoramento de Sensores</h3>
+                <ul>
+                    <li>Acelerômetro em tempo real</li>
+                    <li>Giroscópio com dados de rotação</li>
+                    <li>Magnetômetro para orientação</li>
+                    <li>Atitude do dispositivo (Roll, Pitch, Yaw)</li>
+                </ul>
+                
+                <h3>⚡ Testes de Performance</h3>
+                <ul>
+                    <li>Benchmark de CPU</li>
+                    <li>Teste de memória</li>
+                    <li>Teste de disco</li>
+                    <li>Score geral de performance</li>
+                </ul>
+            </div>
+            
+            <div class="contact-info">
+                <h3>Entre em Contato</h3>
+                <p><strong>Email de Suporte:</strong></p>
+                <p><a href="mailto:suporte@deviceinfopro.com">suporte@deviceinfopro.com</a></p>
+                <p><strong>Horário de Atendimento:</strong></p>
+                <p>Segunda a Sexta, 9h às 18h (horário de Brasília)</p>
+                <p><strong>Resposta:</strong> Respondemos em até 48 horas úteis</p>
+                <a href="mailto:suporte@deviceinfopro.com" class="button">Enviar Email</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 Device Info Pro. Todos os direitos reservados.</p>
+            <p><a href="privacidade.html">Política de Privacidade</a> | <a href="suporte.html">Suporte</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
