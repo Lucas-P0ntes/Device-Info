@@ -35,6 +35,8 @@ jobs:
           if [ -f doc/index.html ]; then
             cp doc/index.html .
           fi
+          # Criar arquivo .nojekyll para desabilitar Jekyll
+          touch .nojekyll
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
