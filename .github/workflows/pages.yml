@@ -30,10 +30,10 @@ jobs:
       
       - name: Copy HTML files to root
         run: |
-          cp doc/privacidade.html .
-          cp doc/suporte.html .
-          if [ -f doc/index.html ]; then
-            cp doc/index.html .
+          cp docs/privacidade.html .
+          cp docs/suporte.html .
+          if [ -f docs/index.html ]; then
+            cp docs/index.html .
           fi
       
       - name: Upload artifact
