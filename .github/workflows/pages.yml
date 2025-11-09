@@ -35,8 +35,6 @@ jobs:
           if [ -f doc/index.html ]; then
             cp doc/index.html .
           fi
-          # Desabilitar Jekyll para servir HTML estático
-          touch .nojekyll
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
