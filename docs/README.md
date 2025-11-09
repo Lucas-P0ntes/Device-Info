@@ -53,8 +53,7 @@ Ao fazer upload do app, você precisará fornecer:
 
 ### Alterar Email de Contato
 Edite os arquivos HTML e substitua:
-- `suporte@deviceinfopro.com`
-- `privacidade@deviceinfopro.com`
+- `lucaspontessantana@gmail.com` (email de contato atual)
 
 ### Alterar Cores
 Modifique as cores no CSS dentro de cada arquivo HTML:
