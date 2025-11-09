@@ -35,7 +35,7 @@ jobs:
           if [ -f doc/index.html ]; then
             cp doc/index.html .
           fi
-          # Criar arquivo .nojekyll para desabilitar Jekyll
+          # Desabilitar Jekyll para servir HTML estático
           touch .nojekyll
       
       - name: Upload artifact
